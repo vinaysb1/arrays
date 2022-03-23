@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Arrays</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            months = new Array(12);
+            months[0] = "Jan";
+            months[1] = "Feb";
+            months[2] = "Mar";
+            months[3] = "Apr";
+            months[4] = "May";
+            months[5] = "Jun";
+            months[6] = "Jul";
+            months[7] = "Aug";
+            months[8] = "Sep";
+            months[9] = "Oct";
+            months[10] = "Nov";
+            months[11] = "Dec";
+            
+            document.write("<br>The months of the year<br>");
+            for(var i=0; i<months.length; i++)
+            {
+                document.write(months[i] + "<br>");
+            }
+            
+            days = new Array("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" );
+            document.write("<br>The days of the week<br>");            
+            for(var i=0; i<days.length; i++)
+            {
+                document.write(days[i] + "<br>");
+            }
+            
+        </script>
+    </body>
+</html>
